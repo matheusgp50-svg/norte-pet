@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="260" viewBox="0 0 320 260" role="img" aria-labelledby="title desc">
+<title id="title">Passeio</title><desc id="desc">Ilustração vetorial simples para o projeto académico NortePet.</desc>
+<rect width="320" height="260" rx="18" fill="#cfe2f3"/>
+<circle cx="95" cy="90" r="25" fill="#f1c27d"/><path d="M90 120 L75 190 L115 190 L120 140 L145 170 L160 160 L125 120Z" fill="#6fa8dc" stroke="#134f5c" stroke-width="5"/><path d="M165 145 Q190 115 215 140 L230 170 L210 185 L190 165 L175 190 L155 180Z" fill="#c68c53" stroke="#5b3a29" stroke-width="5"/><circle cx="205" cy="142" r="4" fill="#222"/><path d="M145 135 Q165 130 175 145" stroke="#134f5c" stroke-width="4" fill="none"/>
+</svg>

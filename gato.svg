@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="260" viewBox="0 0 320 260" role="img" aria-labelledby="title desc">
+<title id="title">Gato</title><desc id="desc">Ilustração vetorial simples para o projeto académico NortePet.</desc>
+<rect width="320" height="260" rx="18" fill="#fce5cd"/>
+<path d="M110 115 L95 55 L140 90 Q165 80 190 90 L230 55 L220 125 Q240 180 200 210 Q160 235 120 210 Q80 180 110 115Z" fill="#999999" stroke="#444" stroke-width="5"/><circle cx="140" cy="145" r="7" fill="#222"/><circle cx="190" cy="145" r="7" fill="#222"/><path d="M150 165 L180 165 L165 180Z" fill="#e06666"/><path d="M145 178 L110 172 M145 185 L110 190 M185 178 L220 172 M185 185 L220 190" stroke="#444" stroke-width="3"/>
+</svg>
