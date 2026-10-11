@@ -1,4 +1,7 @@
 ## Sitemap — NortePet
+
+```text
+
 Início (index.html)
 ├── Serviços (servicos.html)
 │   └── Contacto (contacto.html)
