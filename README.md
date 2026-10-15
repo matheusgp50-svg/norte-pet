@@ -2,7 +2,7 @@
 Trabalho - Programação Web Cliente
 
 ## Alunos: 
-Matheus Palmeira Dantas, Duarte da Silva, António Francisco dos Santos
+Matheus Palmeira Dantas, Duarte da Silva, António Francisco Santos
 
 ## Tema
 NortePet — serviço fictício de pet sitting e visitas ao domicílio para animais de companhia em Vila Nova de Gaia.
