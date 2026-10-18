@@ -1,4 +1,4 @@
-# Sitemap — NortePet (E2)
+# Sitemap — NortePet
 
 ```text
 Início (index.html)
