@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Consulte as informações de contacto de exemplo do projeto académico NortePet.">
+    <meta name="description" content="Entre em contacto com a NortePet através do formulário de demonstração do projeto académico.">
     <title>NortePet | Contacto</title>
 </head>
 <body>
@@ -13,36 +13,75 @@
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+                <li><a href="artigo.html">Artigo</a></li>
+                <li><a href="acessibilidade.html">Acessibilidade</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
         <h1>Contacto</h1>
         <section>
             <h2>Fale connosco</h2>
-            <p>Esta página é uma demonstração académica. Os dados abaixo são fictícios e não correspondem a uma empresa real.</p>
-            <ul>
-                <li>Zona de referência: Vila Nova de Gaia</li>
-                <li>Email de exemplo: geral@example.com</li>
-                <li>Horário ilustrativo: dias úteis, das 09:00 às 18:00</li>
-            </ul>
+            <p>Este é um formulário de demonstração para um projeto académico. Não envia dados para um servidor.</p>
+            <form action="#" method="get">
+                <p>
+                    <label for="nome">Nome completo (obrigatório)</label><br>
+                    <input type="text" id="nome" name="nome" autocomplete="name" required minlength="2">
+                </p>
+                <p>
+                    <label for="email">Endereço de email (obrigatório)</label><br>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </p>
+                <p>
+                    <label for="telefone">Telefone (9 dígitos, opcional)</label><br>
+                    <input type="tel" id="telefone" name="telefone" autocomplete="tel" pattern="[0-9]{9}" title="Introduza 9 algarismos, sem espaços.">
+                </p>
+                <p>
+                    <label for="servico">Serviço pretendido (obrigatório)</label><br>
+                    <select id="servico" name="servico" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="visita">Visita ao domicílio</option>
+                        <option value="passeio">Passeio acompanhado</option>
+                        <option value="prolongada">Visita prolongada</option>
+                        <option value="outro">Outro / ainda não sei</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="data">Data pretendida (opcional)</label><br>
+                    <input type="date" id="data" name="data">
+                </p>
+                <fieldset>
+                    <legend>Como prefere ser contactado?</legend>
+                    <input type="radio" id="contacto-email" name="preferencia" value="email" checked>
+                    <label for="contacto-email">Email</label>
+                    <input type="radio" id="contacto-telefone" name="preferencia" value="telefone">
+                    <label for="contacto-telefone">Telefone</label>
+                </fieldset>
+                <p>
+                    <label for="mensagem">Mensagem (obrigatória)</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5" required minlength="10" maxlength="1000"></textarea>
+                </p>
+                <p>
+                    <input type="checkbox" id="consentimento" name="consentimento" value="sim" required>
+                    <label for="consentimento">Confirmo que compreendi que este formulário é apenas uma demonstração académica (obrigatório).</label>
+                </p>
+                <button type="submit">Validar formulário</button>
+                <button type="reset">Limpar formulário</button>
+            </form>
+        </section>
+        <section>
+            <h2>Informações de exemplo</h2>
+            <p>Projeto fictício com zona de referência em Vila Nova de Gaia. O endereço geral@example.com é ilustrativo e não corresponde a uma empresa real.</p>
             <figure>
-                <img src="images/contacto.svg" alt="Ilustração de um envelope com um símbolo de mensagem.">
+                <img src="contacto.svg" alt="Ilustração de um envelope com um símbolo de mensagem.">
                 <figcaption>Informações de contacto de exemplo.</figcaption>
             </figure>
         </section>
-
-        <section>
-            <h2>Como avançar</h2>
-            <p>Consulte primeiro os <a href="servicos.html">serviços apresentados</a>. O formulário de contacto completo será desenvolvido numa entrega posterior.</p>
-            <p>Para regressar ao início, visite a <a href="index.html">página inicial</a>.</p>
-        </section>
     </main>
-
     <footer>
         <p>Projeto académico fictício — NortePet</p>
+        <p><a href="sitemap.md">Consultar o mapa do sítio</a></p>
     </footer>
 </body>
 </html>
