@@ -1,4 +1,4 @@
-# Documento de planeamento — E2 | NortePet
+# Documento de planeamento — | NortePet
 
 ## 1. Identificação
 - **Projeto:** NortePet — serviço fictício de pet sitting e visitas ao domicílio.
