@@ -44,12 +44,12 @@ Requisitos:
 
 | Texto | Fundo | Rácio |
 |---|---|---|
-| #FFFFFF | #176B5B | 6,42:1 |
-| #FFFFFF | #14532D | 9,55:1 |
-| #1F2937 | #FFFFFF | 14,68:1 |
-| #1F2937 | #F1F5F4 | 13,34:1 |
-| #14532D | #FFFFFF | 9,55:1 |
-| #A65300 | #FFFFFF | 4,89:1 |
+| #FFFFFF | #176B5B | 6,38:1 | 	
+| #FFFFFF | #14532D | 9,11:1 | 	
+| #1F2937 | #FFFFFF | 14,68:1 | 	
+| #1F2937 | #F1F5F4 | 13,36:1 | 	
+| #14532D | #FFFFFF | 9,11:1 | 	
+| #A65300 | #FFFFFF | 5,44:1 | 
 
 Todos estes pares cumprem o contraste
 mínimo de 4,5:1 para texto normal.
