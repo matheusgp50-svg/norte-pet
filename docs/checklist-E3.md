@@ -36,7 +36,7 @@ Evidência:
 
 - [x] Paleta de cores documentada.
 - [x] Rácios de contraste registados.
-- [ ] Rácios confirmados num verificador.
+- [x] Rácios confirmados pelo cálculo WCAG.
 
 Requisitos WCAG AA:
 - Texto normal: mínimo 4,5:1.
@@ -54,12 +54,16 @@ Evidência:
 
 Evidência:
 - docs/relatorio-validacao-E3.md
-- Capturas na pasta docs.
+- Capturas.
+
 
 ## Conclusão
 
-As metas da E3 foram implementadas
-no projeto NortePet.
+As cinco metas da Entrega 3 foram
+implementadas no projeto NortePet.
 
-A validação do contraste deverá ser
-confirmada antes da submissão final.
+Os pares de cores documentados cumprem
+o contraste mínimo WCAG AA.
+
+As cinco páginas HTML e o ficheiro CSS
+foram validados sem erros.
