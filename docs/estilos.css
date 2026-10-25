@@ -1,0 +1,159 @@
+
+/* ===================================
+   NORTEPET - ENTREGA 3
+   Folha de estilos principal
+   =================================== */
+
+/* 1. Cores e tipografia */
+:root {
+    --cor-primaria: #176B5B;
+    --cor-secundaria: #14532D;
+    --cor-destaque: #A65300;
+    --cor-fundo: #FFFFFF;
+    --cor-fundo-suave: #F1F5F4;
+    --cor-texto: #1F2937;
+    --cor-borda: #CBD5D1;
+
+    --fonte-principal: Arial, Helvetica, sans-serif;
+}
+
+/* 2. Estilos gerais */
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* 3. Cabeçalho */
+header {
+    background-color: var(--cor-primaria);
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+/* 4. Navegação */
+nav {
+    background-color: var(--cor-secundaria);
+    padding: 15px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* 5. Conteúdo principal */
+main {
+    padding: 25px;
+}
+
+/* 6. Títulos */
+h1 {
+    color: var(--cor-secundaria);
+    font-size: 2rem;
+}
+
+h2 {
+    color: var(--cor-primaria);
+    font-size: 1.5rem;
+}
+
+/* 7. Parágrafos */
+p {
+    margin-bottom: 15px;
+}
+
+/* 8. Secções */
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+/* 9. Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 10. Ligações */
+a {
+    color: var(--cor-secundaria);
+}
+
+/* 11. Listas */
+ul {
+    padding-left: 25px;
+}
+
+/* 12. Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid var(--cor-borda);
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--cor-fundo-suave);
+}
+
+/* 13. Formulários */
+form {
+    background-color: var(--cor-fundo-suave);
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--cor-borda);
+    font-family: inherit;
+}
+
+/* 14. Botões */
+button {
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--cor-secundaria);
+}
+
+/* 15. Rodapé */
+footer {
+    background-color: var(--cor-secundaria);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 16. Acessibilidade */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #A65300;
+    outline-offset: 3px;
+}
