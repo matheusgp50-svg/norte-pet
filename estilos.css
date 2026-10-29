@@ -157,3 +157,14 @@ textarea:focus-visible {
     outline: 3px solid #A65300;
     outline-offset: 3px;
 }
+
+/* 17. Ligações sobre fundos escuros */
+header a,
+footer a {
+    color: #FFFFFF;
+}
+
+/* 18. Bordas dos campos do formulário (contraste mínimo 3:1) */
+input, select, textarea {
+    border: 1px solid #6B7280;
+}
