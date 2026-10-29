@@ -42,7 +42,12 @@ Erros encontrados: 0
 Resultado: Aprovado
 
 ## 5. Evidências
-
+- docs/html-index.png
+- docs/html-servicos.png
+- docs/html-contacto.png
+- docs/html-artigo.png
+- docs/html-acessibilidade.png
+- docs/css-estilos.png
 
 ## 6. Conclusão
 
