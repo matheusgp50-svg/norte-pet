@@ -168,3 +168,25 @@ footer a {
 input, select, textarea {
     border: 1px solid #6B7280;
 }
+
+/* 19. Menu horizontal */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 0;
+}
+
+/* Indica a página atual sem depender só da cor */
+nav a[aria-current="page"] {
+    font-weight: bold;
+    text-decoration: underline;
+}
