@@ -190,3 +190,17 @@ nav a[aria-current="page"] {
     font-weight: bold;
     text-decoration: underline;
 }
+
+/* 20. Logótipo no cabeçalho */
+header p {
+    margin: 0 0 15px;
+}
+
+header img {
+    display: block;
+}
+
+/* Foco visível sobre o fundo verde do cabeçalho */
+header a:focus-visible {
+    outline-color: #FFFFFF;
+}
