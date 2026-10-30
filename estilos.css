@@ -204,3 +204,8 @@ header img {
 header a:focus-visible {
     outline-color: #FFFFFF;
 }
+
+/* 21. Título do artigo dentro do cabeçalho do artigo */
+article header h1 {
+    color: #FFFFFF;
+}
