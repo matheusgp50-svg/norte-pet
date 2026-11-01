@@ -51,3 +51,4 @@ Evidência:
 
 ## Conclusão
 Todas a metas atingidas.
+-escolha do tema do artigo e teste de teclado
