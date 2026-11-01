@@ -22,32 +22,32 @@ Evidência:
 - docs/guia-estilo.md
 - contacto.html e servicos.html
 
-## Meta 3 — 4 ou mais elementos HTML5 novos com propósito
-- [ ] details e summary (index.html, perguntas frequentes).
-- [ ] time (index.html e servicos.html).
-- [ ] aside (servicos.html, nota de projeto fictício).
-- [ ] figure e figcaption (todas as páginas com imagens).
+## Meta 3
+- [x] details e summary (index.html, perguntas frequentes).
+- [x] time (index.html e servicos.html).
+- [x] aside (servicos.html, nota de projeto fictício).
+- [x] figure e figcaption (todas as páginas com imagens).
 
 Evidência:
 - index.html, servicos.html
 
 ## Meta 4 — Artigo com tema, questão, índice e 6 ou mais referências
-- [ ] Tema e questão orientadora explícitas.
-- [ ] Índice com ligações internas que funcionam.
-- [ ] 6 ou mais referências com URL e data de acesso, todas lidas.
+- [x] Tema e questão orientadora explícitas.
+- [x] Índice com ligações internas que funcionam.
+- [x] 6 ou mais referências com URL e data de acesso, todas lidas.
 
 Evidência:
 - artigo.html
 - artigo/notas-referencias.md
 
 ## Meta 5 — Foco visível e navegação por teclado sem bloqueios
-- [ ] Foco visível em todos os elementos interativos.
-- [ ] Skip link funcional em todas as páginas.
-- [ ] Teste de teclado feito e documentado.
+- [x] Foco visível em todos os elementos interativos.
+- [x] Skip link funcional em todas as páginas.
+- [x] Teste de teclado feito e documentado.
 
 Evidência:
 - docs/teste-teclado-E4.md
 - estilos.css (secções 16 e 20)
 
 ## Conclusão
-(Preencher só depois de verificar cada meta.)
+Todas a metas atingidas.
