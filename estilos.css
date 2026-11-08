@@ -11,6 +11,14 @@
     --fonte-principal: Arial, Helvetica, sans-serif;
 }
 
+
+/* Modelo de caixa - Box Sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 /* 2. Estilos gerais */
 body {
     font-family: var(--fonte-principal);
