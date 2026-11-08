@@ -356,3 +356,36 @@ nav ul {
         font-size: 1.5rem;
     }
 }
+
+
+/* 29. Grelha responsiva de serviços */
+.grelha-servicos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.grelha-servicos li {
+    background-color: var(--cor-fundo-suave);
+    border: 1px solid var(--cor-borda);
+    border-radius: 8px;
+    padding: 1.5rem;
+    min-width: 0;
+}
+
+/* Tablets: 2 colunas */
+@media (min-width: 768px) {
+    .grelha-servicos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Computadores: 3 colunas */
+@media (min-width: 1024px) {
+    .grelha-servicos {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
