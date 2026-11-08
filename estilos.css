@@ -389,3 +389,91 @@ nav ul {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
+
+
+/* ===================================
+   E5 - Adaptação a ecrãs pequenos
+   e acessibilidade tátil
+   =================================== */
+
+/* 30. Evitar conteúdos demasiado largos */
+html, body {
+    max-width: 100%;
+}
+
+main, section, article, figure,
+form, fieldset {
+    min-width: 0;
+}
+
+img, svg, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 31. Textos e tabelas responsivos */
+a {
+    display: inline-block;
+    min-width: 24px;
+    min-height: 24px;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    vertical-align: middle;
+}
+
+table {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 767px) {
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+
+/* 32. Botões e navegação acessíveis */
+nav a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 10px 14px;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+    min-width: 44px;
+    min-height: 44px;
+}
+
+/* 33. Caixas de seleção e opções */
+input[type="checkbox"],
+input[type="radio"] {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+input, select, textarea {
+    max-width: 100%;
+}
+
+/* 34. Menu adaptado a telemóveis */
+@media (max-width: 479px) {
+    nav ul {
+        width: 100%;
+    }
+
+    nav li {
+        width: 100%;
+    }
+
+    nav a {
+        width: 100%;
+    }
+}
