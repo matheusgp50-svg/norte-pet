@@ -38,3 +38,31 @@ Apresentar o serviço, explicar as opções de acompanhamento e permitir que pot
 | E1 | docs/checklist-E1.md, docs/contribuicao-E1.md |
 | E2 | docs/checklist.md, docs/contribuicao.md |
 | E3 | docs/checklist-E3.md, docs/contribuicao-E3.md |
+
+
+## Framework CSS — Entrega 6
+
+Framework escolhida: Bootstrap
+Versão: 5.3.9
+
+### Justificação
+
+Escolhemos o Bootstrap porque permite criar
+interfaces responsivas de forma simples.
+
+A framework disponibiliza componentes
+reutilizáveis e uma grelha responsiva,
+facilitando a adaptação do NortePet
+a telemóveis, tablets e computadores.
+
+Mantivemos o ficheiro estilos.css para
+personalizar o aspeto do site sem alterar
+o código original do Bootstrap.
+
+### Integração
+
+O Bootstrap é carregado através de CDN.
+O projeto utiliza apenas esta framework CSS.
+
+Documentação:
+https://getbootstrap.com/docs/5.3/
