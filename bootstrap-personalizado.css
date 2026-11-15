@@ -29,12 +29,13 @@
 }
 
 /* 3. Cards dos servicos */
-.row .card {
+.row > .col > .card {
     background-color: #FFFFFF;
     border: 1px solid #CBD5D1;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
+
 
 /* 4. Titulos dos Cards */
 .card-title {
