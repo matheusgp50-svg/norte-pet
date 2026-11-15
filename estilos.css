@@ -495,3 +495,13 @@ input, select, textarea {
     aspect-ratio: 16 / 9;
     object-fit: cover;
 }
+
+
+/* Imagens horizontais responsivas */
+.foto-larga {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
