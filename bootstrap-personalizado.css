@@ -29,7 +29,7 @@
 }
 
 /* 3. Cards dos servicos */
-.grelha-servicos li.card {
+.row .card {
     background-color: #FFFFFF;
     border: 1px solid #CBD5D1;
     border-radius: 12px;
