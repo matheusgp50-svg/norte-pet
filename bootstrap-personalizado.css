@@ -1,0 +1,51 @@
+
+/* ==================================
+   E6 - Personalizacoes Bootstrap
+   Projeto NortePet
+   ================================== */
+
+/* 1. Botao principal */
+.btn-primary {
+    background-color: #176B5B;
+    border-color: #176B5B;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+
+/* Efeito ao passar o rato */
+.btn-primary:hover {
+    background-color: #14532D;
+    border-color: #14532D;
+    color: #FFFFFF;
+}
+
+/* 2. Caixa informativa Alert */
+.alert-info {
+    background-color: #E7F5EF;
+    border-color: #6FBA9B;
+    color: #14532D;
+    border-radius: 10px;
+}
+
+/* 3. Cards dos servicos */
+.grelha-servicos li.card {
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5D1;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* 4. Titulos dos Cards */
+.card-title {
+    color: #14532D;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+/* 5. Lista de passos List Group */
+.list-group .list-group-item {
+    background-color: #F1F5F4;
+    border-color: #CBD5D1;
+    padding: 16px;
+}
