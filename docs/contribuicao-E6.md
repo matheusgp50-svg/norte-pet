@@ -8,13 +8,9 @@ Unidade Curricular: Programação Web - Cliente
 
 | Elemento | Responsabilidade na E6
 |---|---|
-| Matheus Palmeira Dantas | Framework css adotada, com versão definida e
-registada no README. |
-| Duarte da Silva | 4 ou mais componentes Bootstrap integrados, com 5 ou
-mais personalizações num ficheiro separado (sem
-alterar o código da framework) |
-| António Francisco Santos | Grelha Bootstrap em pelo menos 2 páginas.
-4. Artigo: primeira versão com pelo menos 60% do texto. |
+| Matheus Palmeira Dantas | Framework css adotada, com versão definida e registada no README. |
+| Duarte da Silva | 4 ou mais componentes Bootstrap integrados, com 5 ou mais personalizações num ficheiro separado (sem alterar o código da framework) |
+| António Francisco Santos | Grelha Bootstrap em pelo menos 2 páginas. Artigo: primeira versão com pelo menos 60% do texto. |
 
 ## Trabalho desenvolvido na E6
 
