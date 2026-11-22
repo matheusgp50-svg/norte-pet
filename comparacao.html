@@ -1,3 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comparação do mesmo componente, um card, em Bootstrap, Foundation e W3.CSS, com tabela de critérios medidos, para escolher a framework CSS do sítio NortePet.">
+    <title>NortePet | Comparação de frameworks</title>
+
+<!-- Bootstrap 5.3.9 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+
+<!-- Estilos personalizados NortePet -->
+    <link rel="stylesheet" href="estilos.css">
+
+<!-- Personalizacoes Bootstrap - E6 -->
+    <link rel="stylesheet" href="bootstrap-personalizado.css">
+
+</head>
+<body>
+    <header>
+        <p><a href="index.html"><img src="images/logo.png" width="120" height="120" alt="NortePet — página inicial"></a></p>
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="artigo.html">Artigo</a></li>
+                <li><a href="acessibilidade.html">Acessibilidade</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <h1>Comparação de frameworks CSS</h1>
+        <p>Comparámos o mesmo componente, um card, em Bootstrap, Foundation e W3.CSS, para escolher a framework do sítio final.</p>
+
+        <section>
+            <h2>O componente comparado: Card</h2>
+            <div class="row row-cols-1 row-cols-lg-3 g-3 mx-0">
+                <figure class="col">
+                    <iframe src="comparacao/bootstrap.html" title="Card em Bootstrap 5.3.9" width="100%" height="400"></iframe>
+                    <figcaption>Bootstrap 5.3.9</figcaption>
+                </figure>
+                <figure class="col">
+                    <iframe src="comparacao/foundation.html" title="Card em Foundation 6.9.0" width="100%" height="400"></iframe>
+                    <figcaption>Foundation 6.9.0</figcaption>
+                </figure>
+                <figure class="col">
+                    <iframe src="comparacao/w3css.html" title="Card em W3.CSS 5" width="100%" height="400"></iframe>
+                    <figcaption>W3.CSS 5</figcaption>
+                </figure>
+            </div>
+        </section>
+
         <section>
             <h2>Tabela comparativa</h2>
             <table>
@@ -59,3 +113,11 @@
             <p>Os critérios de KB, linhas de código e acessibilidade foram medidos nas versões por defeito, antes da personalização. As demonstrações publicadas incluem agora o CSS usado no critério de personalização.</p>
             <p><strong>Limitações:</strong> comparou-se um único componente, num único computador e numa única ligação de rede. A pontuação da documentação segue uma rubrica simples e é subjetiva. Os resultados de KB e de acessibilidade podem variar com a versão da framework e do navegador.</p>
         </section>
+    </main>
+
+    <footer>
+        <p>Projeto académico fictício — NortePet</p>
+        <p><a href="contacto.html">Contactos</a></p>
+    </footer>
+</body>
+</html>
