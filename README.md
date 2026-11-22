@@ -40,29 +40,15 @@ Apresentar o serviço, explicar as opções de acompanhamento e permitir que pot
 | E3 | docs/checklist-E3.md, docs/contribuicao-E3.md |
 
 
-## Framework CSS — Entrega 6
+## Framework CSS — Entrega 7
 
-Framework escolhida: Bootstrap
-Versão: 5.3.9
+Framework final: Bootstrap 5.3.9, carregado por CDN (apenas CSS).
 
-### Justificação
+A decisão está fundamentada em `docs/decisao-framework.md`, com base na
+comparação de `comparacao.html`. O Foundation e o W3.CSS só existem nas
+demonstrações da pasta `comparacao/`, não no sítio final.
 
-Escolhemos o Bootstrap porque permite criar
-interfaces responsivas de forma simples.
+As personalizações estão em `estilos.css` e `bootstrap-personalizado.css`,
+sem alterar o código original do Bootstrap.
 
-A framework disponibiliza componentes
-reutilizáveis e uma grelha responsiva,
-facilitando a adaptação do NortePet
-a telemóveis, tablets e computadores.
-
-Mantivemos o ficheiro estilos.css para
-personalizar o aspeto do site sem alterar
-o código original do Bootstrap.
-
-### Integração
-
-O Bootstrap é carregado através de CDN.
-O projeto utiliza apenas esta framework CSS.
-
-Documentação:
-https://getbootstrap.com/docs/5.3/
+Documentação: https://getbootstrap.com/docs/5.3/
