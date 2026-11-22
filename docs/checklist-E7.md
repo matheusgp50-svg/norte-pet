@@ -36,7 +36,7 @@ Evidência:
 ## Meta 3 — Decisão da framework
 - [x] Decisão fundamentada, com uma página.
 - [x] Framework final: Bootstrap 5.3.9.
-- [ ] README atualizado com a decisão.
+- [x] README atualizado com a decisão.
 
 Evidência:
 - docs/decisao-framework.md
