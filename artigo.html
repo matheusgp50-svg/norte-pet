@@ -71,7 +71,14 @@
                     benefícios e as limitações dessa utilização
                     no projeto NortePet. A metodologia combina
                     a consulta das orientações WCAG 2.2 com
-                    uma comparação entre descrições geradas por IA e descrições redigidas pelo grupo para cinco imagens do sítio. A análise considerou a fidelidade, a concisão e a adequação ao contexto. Os resultados foram próximos (5,6 pontos em 6 para a IA e 5,4 para o grupo), com a IA a perder em concisão e a exigir revisão humana nas decisões que dependem do contexto. A IA pode apoiar este processo, mas não substitui a revisão humana.
+                    uma comparação prevista entre descrições
+                    geradas por IA e descrições redigidas
+                    pelo grupo para cinco imagens do sítio.
+                    A análise considera a fidelidade, a
+                    concisão e a adequação ao contexto.
+                    A revisão realizada sugere que a IA pode
+                    apoiar este processo, mas não substitui
+                    a revisão humana.
                 </p>
                 <p><strong>Palavras-chave:</strong> Acessibilidade Web; Inteligência artificial; Texto alternativo.</p>
             </section>
@@ -133,7 +140,11 @@
                 </p>
                 
                 <p>
-                    Para responder a esta questão, analisam-se os contributos da IA, os seus riscos e uma experiência prática com imagens do projeto NortePet, terminando com uma reflexão crítica sobre os resultados.
+                    Para responder a esta questão, serão
+                    analisados os contributos da IA, os seus
+                    riscos e uma experiência prática com
+                    imagens do projeto NortePet, terminando
+                    com uma reflexão crítica sobre os resultados.
                 </p>
             </section>
 
@@ -309,100 +320,28 @@
                 <h3>Aplicação ao projeto NortePet</h3>
             
                 <p>
-                    No NortePet, estas limitações foram analisadas através da comparação entre textos alternativos gerados por IA e textos escritos pelo grupo para cinco imagens do sítio. A comparação permitiu identificar diferenças de fidelidade, concisão e adequação ao contexto, apresentadas na secção seguinte.
+                    No NortePet, estas limitações serão
+                    analisadas através da comparação
+                    entre textos alternativos gerados
+                    por IA e textos escritos pelo grupo
+                    para cinco imagens do sítio.
+                    A comparação permitirá identificar
+                    eventuais diferenças de fidelidade,
+                    concisão e adequação ao contexto.
+                    Os resultados observados serão
+                    apresentados na secção da experiência
+                    prática, depois da realização do teste.
                 </p>
             </section>
 
             <section id="pratica">
                 <h2>Experiência prática</h2>
-
-                <p>Para responder à questão orientadora, comparámos textos alternativos escritos pelo grupo com textos gerados por IA em cinco imagens do NortePet: uma fotografia de um cachorro, uma de um gato, uma de um passeio, uma ilustração vetorial de contacto e o logótipo, que funciona como ligação para a página inicial. Os textos do grupo já estavam no sítio antes da experiência. Os textos da IA foram pedidos a 22 de novembro de 2026 ao Claude (Anthropic), modelo Claude Sonnet 5.5.</p>
-
-                <p>O pedido foi o mesmo para as cinco imagens: escrever o texto alternativo em português de Portugal, com o máximo de 125 caracteres, indicando a página, a legenda ou a função da imagem e permitindo a resposta “alt vazio” se a imagem fosse decorativa. Os pedidos e as respostas integrais estão registados em <code>docs/registo-pedidos-ia.md</code>.</p>
-
-                <h3>Textos alternativos comparados</h3>
-                <table>
-                    <caption>Texto alternativo escrito pelo grupo e gerado por IA para cinco imagens do NortePet</caption>
-                    <thead>
-                        <tr>
-                            <th scope="col">Imagem</th>
-                            <th scope="col">Texto do grupo</th>
-                            <th scope="col">Texto da IA</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1. Cachorro (<code>cao-novo2.jpg</code>)</th>
-                            <td>Cachorro preto e castanho deitado ao colo de uma pessoa, a olhar para a câmara. (79 caracteres)</td>
-                            <td>Cachorro preto com manchas castanhas, de orelhas descaídas, deitado e encostado ao colo de uma pessoa sentada no chão. (118 caracteres)</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2. Gato (<code>gato.jpg</code>)</th>
-                            <td>Gato tigrado deitado sobre um tecido azul. (42 caracteres)</td>
-                            <td>Gato laranja de olhos verdes a olhar para cima, junto a uma manta azul e vermelha, num ambiente escuro. (103 caracteres)</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3. Passeio (<code>passeio.jpg</code>)</th>
-                            <td>Pessoa a passear um cão num parque. (35 caracteres)</td>
-                            <td>Pessoa de costas a passear um cão com trela num parque relvado, com árvores e sombras compridas. (96 caracteres)</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">4. Ilustração de contacto (<code>contacto.svg</code>)</th>
-                            <td>Ilustração de um envelope com um símbolo de mensagem. (53 caracteres)</td>
-                            <td>Texto alternativo vazio (0 caracteres), por a legenda já transmitir a informação.</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">5. Logótipo (<code>logo.png</code>)</th>
-                            <td>NortePet — página inicial (25 caracteres)</td>
-                            <td>NortePet, página inicial (24 caracteres)</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <h3>Avaliação</h3>
-                <p>Cada texto foi pontuado de 0 a 2 em três critérios: fidelidade, concisão e adequação ao contexto, segundo a grelha descrita em <code>docs/grelha-avaliacao-ia.md</code>.</p>
-                <table>
-                    <caption>Pontuação dos textos alternativos (0 a 2 por critério, máximo 6)</caption>
-                    <thead>
-                        <tr>
-                            <th scope="col">Imagem e autor</th>
-                            <th scope="col">Fidelidade</th>
-                            <th scope="col">Concisão</th>
-                            <th scope="col">Adequação ao contexto</th>
-                            <th scope="col">Total</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><th scope="row">1. Cachorro — grupo</th><td>2</td><td>2</td><td>2</td><td>6</td></tr>
-                        <tr><th scope="row">1. Cachorro — IA</th><td>2</td><td>1</td><td>2</td><td>5</td></tr>
-                        <tr><th scope="row">2. Gato — grupo</th><td>1</td><td>2</td><td>2</td><td>5</td></tr>
-                        <tr><th scope="row">2. Gato — IA</th><td>2</td><td>2</td><td>2</td><td>6</td></tr>
-                        <tr><th scope="row">3. Passeio — grupo</th><td>2</td><td>2</td><td>2</td><td>6</td></tr>
-                        <tr><th scope="row">3. Passeio — IA</th><td>2</td><td>1</td><td>2</td><td>5</td></tr>
-                        <tr><th scope="row">4. Ilustração — grupo</th><td>1</td><td>2</td><td>1</td><td>4</td></tr>
-                        <tr><th scope="row">4. Ilustração — IA</th><td>2</td><td>2</td><td>2</td><td>6</td></tr>
-                        <tr><th scope="row">5. Logótipo — grupo</th><td>2</td><td>2</td><td>2</td><td>6</td></tr>
-                        <tr><th scope="row">5. Logótipo — IA</th><td>2</td><td>2</td><td>2</td><td>6</td></tr>
-                        <tr><th scope="row">Média do grupo</th><td>1,6</td><td>2,0</td><td>1,8</td><td>5,4</td></tr>
-                        <tr><th scope="row">Média da IA</th><td>2,0</td><td>1,6</td><td>2,0</td><td>5,6</td></tr>
-                    </tbody>
-                </table>
-
-                <h3>Observações</h3>
-                <p>Os dois conjuntos de textos tiveram resultados próximos: 5,4 pontos de média para o grupo e 5,6 para a IA, em 6. Com apenas cinco imagens, a diferença não permite concluir que um seja melhor.</p>
-
-                <p>Nas fotografias, a IA descreveu corretamente os elementos principais, mas tendeu a acrescentar pormenores que não ajudam a compreender a página, como as árvores e as sombras compridas no passeio ou o ambiente escuro na fotografia do gato. Por isso perdeu pontos em concisão (1,6 contra 2,0 do grupo). Os textos do grupo foram mais curtos, mas o do gato foi menos preciso: a fotografia mostra o animal encostado à manta, e não propriamente deitado sobre ela.</p>
-
-                <p>O caso mais interessante foi o da ilustração de contacto. O texto do grupo refere um “símbolo de mensagem”, mas a imagem mostra um visto verde sobre um envelope, o que torna o texto impreciso. A IA considerou a imagem redundante, porque a legenda “Informações de contacto.” já transmite a informação, e propôs um texto alternativo vazio. Esta opção é defensável quando a imagem não acrescenta informação à legenda (ver a árvore de decisão nas Referências), mas é discutível e exige a confirmação de uma pessoa. No logótipo, os dois textos coincidiram no essencial, o nome e o destino da ligação, o que mostra que a IA aproveitou a informação de contexto fornecida no pedido.</p>
-
-                <p>Limitações da experiência: foram analisadas apenas cinco imagens, com uma só ferramenta e numa só sessão. A IA tinha tido acesso, na mesma conversa, aos textos alternativos do grupo, pelo que as respostas não são independentes, e os pedidos não foram feitos em conversas separadas. A pontuação foi proposta pela própria ferramenta e revista pelo grupo, o que introduz um risco de enviesamento, e a grelha é subjetiva. Os resultados são, por isso, indicativos e não generalizáveis.</p>
+                <p><em>Por escrever:</em></p>
             </section>
 
             <section id="conclusoes">
                 <h2>Conclusões</h2>
-                <p>Em resposta à questão orientadora, a experiência sugere que a IA generativa consegue apoiar a criação de texto alternativo: nas cinco imagens produziu textos corretos e adequados à função da imagem, desde que recebesse contexto, isto é, a página, a legenda e a função da imagem. Os pontos fracos foram o excesso de pormenor, que prejudica a concisão, e as decisões que dependem de critério humano, como considerar uma imagem redundante.</p>
-                <p>Os textos do grupo foram mais curtos, mas também tiveram imprecisões, na ilustração de contacto e na fotografia do gato, o que mostra que a revisão é necessária mesmo quando o texto é escrito por pessoas. Em consequência, o texto alternativo da ilustração de contacto foi revisto no sítio.</p>
-                <p>Em termos práticos, recomendamos que o NortePet use a IA como primeira sugestão de texto alternativo, com um pedido que inclua sempre o contexto e um limite de caracteres, e que uma pessoa reveja cada texto antes da publicação. Para confirmar estes resultados, seria necessário repetir a experiência com mais imagens, com mais do que uma ferramenta, com pedidos independentes e com avaliadores que não tenham gerado os textos.</p>
+                <p><em>Por escrever</em></p>
             </section>
 
             <section id="referencias">
@@ -419,7 +358,7 @@
 
             <section id="declaracao-ia">
                 <h2>Declaração de utilização de IA</h2>
-                <p>Ferramenta: Claude (Anthropic), modelo Claude Haiku 5.5. Finalidade: apoio na definição da estrutura do artigo e na identificação de fontes a consultar. Foi também usado o Claude (Anthropic), modelo Claude Sonnet 5.5, a 22 de novembro de 2026, para gerar os textos alternativos analisados na experiência prática (os pedidos e as respostas estão registados em <code>docs/registo-pedidos-ia.md</code>), para propor a pontuação da grelha de avaliação e para apoiar a redação das secções Experiência prática e Conclusões. O grupo é totalmente responsável pelo conteúdo.</p>
+                <p>Ferramenta: Claude (Anthropic), modelo Claude Haiku 5.5. Finalidade: apoio na definição da estrutura do artigo e na identificação de fontes a consultar. O grupo é totalmente responsável pelo conteúdo.</p>
             </section>
         </article>
     </main>
